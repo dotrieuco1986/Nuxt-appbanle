@@ -1,0 +1,77 @@
+@import "variable";
+
+.check-box[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    position: relative;
+    margin-right: 15px;
+    float: left;
+    background: none;
+    border: none;
+    &::before {
+        width: 100%;
+        height: 100%;
+        display: block;
+        background: $white;
+        padding: 2px;
+        border: 1px solid $extra-light-blue;
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    &:checked::after {
+        width: 60%;
+        height: 60%;
+        background: $blue;
+        content: '';
+        display: block;
+        position: absolute;
+        left: 20%;
+        top: 20%;
+    }
+
+    &:disabled::before {
+        background: $light-blue;
+    }
+}
+input[type="radio"] {
+            width: 20px;
+            height: 20px;
+            border-radius: 100%;
+            border: 1px solid $extra-light-blue;
+            position: relative;
+            margin-right: 10px;
+            &:checked::after {
+                width: 60%;
+                height: 60%;
+                background: $blue;
+                content: '';
+                display: block;
+                position: absolute;
+                left: 20%;
+                top: 20%;
+                border-radius: 100%;
+            }
+        }
+input[type="radio"].fl-left{
+    float: left;
+}
+input.custom {
+    font-size: 14px;
+    height: 40px;
+    border-radius: 5px;
+    border-color: $extra-light-blue;
+    border: 1px solid $extra-light-blue;
+
+    &::placeholder {
+        font-size: 14px;
+    }
+
+    &:focus,
+    &:hover {
+        outline: none !important;
+        border-color: $extra-light-blue;
+        box-shadow: 0 0 10px $extra-light-blue;
+    }
+}

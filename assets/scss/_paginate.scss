@@ -1,0 +1,24 @@
+#paginate {
+    display: block;
+    .page-link {
+        border: none;
+        color: $orange;
+        background-color: $white;
+        border-color: $white;
+        font-family: $font-light;
+    }
+    .another-page {
+        display: none;
+    }
+    .page-item {
+        &.active {
+            .page-link {
+                z-index: 3;
+                color: $orange;
+                background-color: $white;
+                border-color: $white;
+                font-family: $font-primary;
+            }
+        }
+    }
+}

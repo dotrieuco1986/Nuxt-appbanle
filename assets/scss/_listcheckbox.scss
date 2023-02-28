@@ -1,0 +1,19 @@
+@import "variable";
+
+.list-ck-container{
+    padding: 10px;
+
+    .container-data{
+        border: 1px solid $gray;
+        padding: 10px;
+        overflow: auto;
+        max-height: 400px;
+
+        .item{
+            border-bottom: 1px solid $gray;
+            display: flex;
+            justify-content: space-between;
+            padding: 5px;
+        }
+    }
+}

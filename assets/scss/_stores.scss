@@ -1,0 +1,253 @@
+#stores, #store-create, #chains, #chain-create {
+    margin-top: 30px;
+    .head-area {
+        padding-bottom: 30px;
+    }
+    .count-area {
+        padding-bottom: 10px;
+    }
+    .count-area {
+        padding-top: 10px;
+        .item {
+            font-size: $font-size-base;
+            font-family: $font-primary;
+            font-weight: normal;
+        }
+    }
+    .head-area, .count-area, .item-store {
+        border-bottom: 1px solid $light-gray;
+    }
+    .item-store {
+        svg {
+            color: $orange;
+            cursor: pointer;
+        }
+        .img-signboard {
+            width: 120px;
+            height: auto;
+            float: left;
+            margin: 10px;
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            border-radius: 10px;
+        }
+        .information {
+            padding: 10px;
+            line-height: $line-height-base;
+        }
+        .link-to-products {
+            color: $orange;
+            font-family: $font-primary;
+        }
+        @media only screen and (max-width: 600px) {
+            .img-signboard {
+                width: 100%;
+                height: auto;
+                padding: 5px;
+                border-radius: 15px;
+                -webkit-border-radius: 15px;
+                -moz-border-radius: 15px;
+                margin: 0 0 10px 0;
+            }
+            .information {
+                .basic-info {
+                    margin-bottom: 10px;
+                }
+            }
+        }
+    }
+    .head-area {
+        .label-title {
+            color: $orange;
+            line-height: 2.6em;
+            font-family: $font-medium;
+            font-weight: normal;
+        }
+        .search-form {
+            height: unset;
+            font-family: $font-light;
+            font-size: $font-size-base;
+            padding: 5px;
+            background: $light-gray;
+            min-width: 85%;
+            margin-right: 10px;
+        }
+        .btn-search {
+            background: $orange;
+            border-color: $orange;
+        }
+        .btn-add-store {
+            background: $orange;
+            border-color: $orange;
+            padding: 5px 20px;
+            color: $white;
+            font-family: $font-bold;
+            font-size: $font-size-base;
+        }
+    }
+    .color-primary {
+        color: $orange;
+    }
+    .form-custom {
+        &.create {
+            margin-top: 50px;
+        }
+        &.edit {
+            margin-top: 30px;
+        }
+        .label-custom {
+            font-family: $font-medium;
+            font-size: $font-size-base;
+            font-weight: normal;
+            text-transform: capitalize;
+        }
+        .form-control {
+            height: auto;
+            font-size: $font-size-base;
+            padding: 0.375rem 0.75rem;
+            border-radius: 0;
+        }
+        .input-group-text {
+            border-radius: 0;
+            background-color: $white;
+            color: $orange;
+        }
+        .box-show-time {
+            position: relative;
+            textarea {
+                position: relative;
+            }
+            svg {
+                position: absolute;
+                top: 5px;
+                right: 20px;
+            }
+        }
+        .wrap-images-additional {
+            float: left;
+            margin-right: 10px;
+            .image-item {
+                width: 75px;
+                height: 75px;
+                float: left;
+                margin-right: 10px;
+                border: 1px dashed $gray
+            }
+        }
+        .label-signboard {
+            display: inline-block;
+            margin-bottom: 15px;
+        }
+        .upload-signboard {
+            background-color: $orange;
+            color: $white;
+            padding: 10px 50px;
+            position: relative;
+            cursor: pointer;
+            span {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                top: 0px;
+                right: 0px;
+                z-index: 2;
+                background: $orange;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            &::before {
+                content: "";
+                position: absolute;
+                width: calc(100% + 20px);
+                top: 0;
+                left: -10px;
+                border: 1px solid $gray;
+                height: 100%;
+            }
+            &::after {
+                content: "";
+                position: absolute;
+                height: calc(100% + 16px);
+                top: -8px;
+                left: 0;
+                border: 1px solid $gray;
+                width: 100%;
+            }
+        }
+        #store-open-time {
+            height: 190px
+        }
+        .btn-sucess-custom {
+            background: -webkit-linear-gradient(bottom, $orange, $orange, yellow);
+            padding: 10px 30px;
+            border-radius: 20px;
+            color: $white;
+            border-top: 0;
+        }
+        .btn-reset-custom {
+            background: -webkit-linear-gradient(bottom, $gray, $light-gray, $white);
+            padding: 10px 30px;
+            border-radius: 20px;
+            border-top: 0;
+        }
+        .input-group-text {
+            svg {
+                cursor: pointer;
+            }
+        }
+        .preview-item {
+            position: relative;
+            img {
+                width: 100%;
+            }
+            .btn-remove-preview {
+                position: absolute;
+                top: -10px;
+                right: 5px;
+                border-radius: 50%;
+                background: $orange;
+                padding: 0px 7px;
+                color: $white;
+                cursor: pointer;
+            }
+        }
+    }
+    .margin-top-10 {
+        margin-top: 10px;
+    }
+    .margin-top-20 {
+        margin-top: 20px;
+    }
+    .curser-pointer {
+        cursor: pointer;
+    }
+    .br-style {
+        margin-bottom: 10px;
+    }
+    .orange {
+        color: $orange;
+    }
+    .pull-right {
+        float: right;
+    }
+    .box-list-store-not-of-chain {
+        border: 1px solid $gray;
+        padding: 5px 10px;
+        width: 100%;
+        height: 150px;
+        overflow-y: auto;
+        overflow-x: hidden;
+        .wrap {
+            margin-left: -40px !important;
+            li {
+                list-style: none;
+                .checkbox-item {
+                    float: right;
+                    display: inline;
+                    min-height: auto;
+                }
+            }
+        }
+    }
+}

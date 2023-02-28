@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <g id="Group_1169" data-name="Group 1169" transform="translate(-304 -10)">
+    <rect id="Rectangle_1618" data-name="Rectangle 1618" width="40" height="40" rx="5" transform="translate(304 10)" fill="#4aa9c5"/>
+    <g id="menu_2_" data-name="menu (2)" transform="translate(314 20.125)">
+      <path id="Path_1618" data-name="Path 1618" d="M0,3.4A1.524,1.524,0,0,1,1.524,1.875h15.81a1.524,1.524,0,0,1,0,3.048H1.524A1.524,1.524,0,0,1,0,3.4ZM17.333,8.351H1.524a1.524,1.524,0,0,0,0,3.048h15.81a1.524,1.524,0,0,0,0-3.048Zm0,6.476H1.524a1.524,1.524,0,1,0,0,3.048h15.81a1.524,1.524,0,0,0,0-3.048Z" transform="translate(1)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

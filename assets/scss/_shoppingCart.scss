@@ -1,0 +1,263 @@
+@import './variable';
+$header-footer-height:60px;
+[role="button"]:focus,
+[role="button"]:visited,
+button:focus,
+[role="button"],
+button {
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    height: unset;
+    width: unset;
+    padding: 0;
+}
+
+#shopping_cart,
+#shop_checkout {
+    width: 100%;
+    height: 100%;
+    p {
+        margin: 0;
+        padding: 0;
+    }
+    .border-top-bottom {
+        border-bottom: 1px solid $extra-light-blue;
+        border-top: 1px solid $extra-light-blue;
+        padding-bottom: 1px;
+        padding-top: 1px;
+        &::before {
+            width: 100%;
+            height: 1px;
+            background: $white;
+            content: '';
+            display: block;
+            position: absolute;
+            left: 0;
+            top: 0px;
+        }
+        &::after {
+            width: 100%;
+            height: 1px;
+            background: $white;
+            content: '';
+            display: block;
+            position: absolute;
+            left: 0;
+            top: calc(100% - 1px);
+        }
+    }
+    .border-bottom {
+        border-bottom: 1px solid $extra-light-blue;
+    }
+    .no-padding-left {
+        padding-left: 0 !important;
+    }
+    .no-padding-right {
+        padding-right: 0 !important;
+    }
+    .vertical-align {
+        display: flex;
+        align-items: center;
+    }
+    .check-box[type="checkbox"] {
+        width: 22px;
+        height: 22px;
+        position: relative;
+        margin-right: 15px;
+        float: left;
+        background: none;
+        border: none;
+        &::before {
+            width: 100%;
+            height: 100%;
+            display: block;
+            background: $white;
+            padding: 2px;
+            border: 1px solid $extra-light-blue;
+            content: '';
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        &:checked::after {
+            width: 60%;
+            height: 60%;
+            background: $blue;
+            content: '';
+            display: block;
+            position: absolute;
+            left: 20%;
+            top: 20%;
+        }
+    }
+    label {
+        align-items: center;
+    }
+    .btn-discount {
+        border: 1px solid $orange;
+        border-radius: 5px;
+        color: $orange;
+        padding: 0 8px;
+        background: $white;
+        display: inline-block;
+        cursor: pointer;
+        & p {
+            min-height: 30px;
+        }
+        .svg-icon {
+            margin-left: 10px;
+        }
+    }
+    .shopping-cart-header {
+        min-height: $header-footer-height;
+        padding: 0 15px;
+    }
+    .shopping-cart-selected {
+        background: #DCE5EA;
+        font-size: 14px;
+        color: $dark-gray;
+        min-height: 30px;
+        padding: 0 30px !important;
+        margin: 0 !important;
+        b {
+            color: $orange;
+        }
+    }
+    .shopping-cart-footer {
+        min-height: $header-footer-height;
+        background: $orange;
+        justify-content: space-between;
+        font-size: 18px;
+        color: $white;
+        padding: 0 30px;
+        .btn-buy {
+            cursor: pointer
+        }
+    }
+    .shop-block-cover {
+        height: calc( 100% - (60px * 2));
+        overflow-y: scroll;
+        padding: 0;
+        .shop-block {
+            &>div {
+                margin: 0 15px;
+            }
+            .shop-header {
+                padding: 0 15px !important;
+                margin: 0;
+                height: 44px;
+                background: $light-blue;
+                position: relative;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                .check-box[type="checkbox"] {
+                    width: 20px;
+                    height: 20px;
+                }
+                label {
+                    font-family: $font-light;
+                    color: $orange;
+                    font-size: 14px;
+                    align-items: center;
+                    .svg-icon {
+                        margin-right: 10px;
+                    }
+                }
+            }
+            .shop-total-block {
+                padding: 15px 0;
+                .shop-total-row {
+                    margin-bottom: 10px;
+                }
+            }
+        }
+    }
+    .shop-item-row {
+        padding: 10px 0;
+        width: calc(100% - 60px);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        .shop-item {
+            display: flex;
+            flex-direction: row;
+            &>div {
+                display: flex;
+                align-items: center;
+                margin-right: 12px;
+            }
+            .item-qty,
+            .add-item,
+            .remove-item {
+                cursor: pointer;
+            }
+        }
+        .icon-count {
+            width: 30px;
+            height: 30px;
+            border-radius: 100%;
+            background: $orange;
+            font-size: 0.8em;
+            text-align: center;
+            color: $white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .price-old {
+            text-decoration: line-through;
+        }
+    }
+    .shipping-block {
+        position: relative;
+        display: inline-block;
+        cursor: pointer;
+        .shipping-more-info {
+            display: inline-block;
+            box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.1);
+            position: absolute;
+            bottom: calc(100% + 5px);
+            left: calc(100% - 12px);
+            padding: 10px;
+            text-align: center;
+            margin: 0;
+            min-width: 230px;
+            border-radius: 5px;
+            opacity: 0;
+            visibility: hidden;
+            &.show {
+                opacity: 1;
+                visibility: visible;
+            }
+        }
+    }
+}
+
+#shop_checkout {
+    padding-top: 30px;
+}
+
+#modal_request_login {
+    .modal-dialog {
+        max-width: 510px;
+        padding: 25px 30px;
+    }
+    .request-login-form {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-around;
+        a {
+            height: 40px;
+            min-width: 190px;
+            font-size: 16px;
+            padding: 0 50px;
+            border-radius: 5px;
+            border: none !important;
+            text-transform: uppercase;
+        }
+    }
+}

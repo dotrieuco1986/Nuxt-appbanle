@@ -1,0 +1,49 @@
+@import "./variable";
+#admin-page{
+    input{
+        border: 1px solid #7f828b !important;
+        outline: none !important;
+    }
+    #content{
+        #menu-left{
+            min-height: calc(100vh - 80px);
+            border-right: 1px solid #CBD4DA;
+            #admin-menu{
+                list-style: none;
+                padding-top: 140px;
+                li.item{
+                    padding-top: 8px;
+
+                    a{
+                        color: #626262;
+                        .svg-icon{
+                            circle {
+                                fill: #71C8FF;
+                            }
+                            path {
+                                fill: #fff;
+                            }
+                        }
+                        img{
+                            width:30px;
+                        }
+                    }
+                    a:hover{
+                        color: $orange;
+                    }
+                    .collapse{
+                        padding-left: 32px;
+                    }
+                    span:focus{
+                        outline: none;
+                    }
+                    .text-disable{
+                        color: #B9B2B2;
+                    }
+
+                }
+            }
+        }
+    }
+
+}

@@ -1,0 +1,27 @@
+.breadcrumb {
+    background: transparent;
+    margin-bottom: 0;
+    padding: 8px 0;
+    .breadcrumb-item {
+        color: $orange;
+        font-family: $font-medium;
+        a {
+            color: $orange;
+            font-family: $font-medium;
+        }
+        &.active {
+            font-family: $font-light;
+        }
+        &::before {
+            display: inline-block;
+            padding-right: 0.5rem;
+            color: $orange;
+            content: ">";
+        }
+        &:nth-child(1) {
+            &::before {
+                display: none;
+            }
+        }
+    }
+}

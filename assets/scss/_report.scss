@@ -1,0 +1,32 @@
+@import 'variable';
+
+#report-page{
+
+    #order-status-row{
+        border-top: 1px solid #CBD4DA;
+        background: linear-gradient($white 10%, #E3E3E3);
+        margin: 0px;
+        display: flex;
+        ul{
+            width:100%;
+            list-style: none;
+            padding: 0px;
+            margin: 0px;
+        }
+        li{
+            display: flex;
+            align-items: center;
+            text-align:center;
+            float:left;
+            height:30px;
+            margin:0px;
+            width:25%;
+        }
+        li:before {
+            content: "• ";
+            color: $orange;
+            padding-right: 5px;
+        }
+    }
+
+}

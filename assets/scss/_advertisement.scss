@@ -1,0 +1,140 @@
+@import "variable";
+$font-size-16: 16px;
+$small-height: calc(100vh - 300px);
+
+.advertisement {
+    .nav-tabs .nav-item {
+        background-color: $blue;
+        margin-right: 2px;
+        border-radius: 5px 5px 0 0;
+    }
+
+    .nav-tabs .nav-link {
+        font-size: 16px;
+        color: $white;
+    }
+
+    .nav-tabs .nav-link.active {
+        color: $blue;
+    }
+
+    h4 {
+        font-size: $font-size-16;
+        color: $orange;
+        font-weight: bold;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    textarea {
+        font-size: inherit;
+    }
+
+    [type='text'],
+    [type='number'],
+    select {
+        height: 40px;
+        font-size: inherit;
+    }
+
+    .button-gui {
+        background-color: $orange;
+        font-size: 16px;
+        font-weight: bold;
+        height: 65px;
+        color: white;
+        padding: 20px;
+        cursor: pointer;
+        margin-left: -21px;
+        margin-right: -21px;
+    }
+
+    .times-panel {
+        display: inline-flex;
+        justify-content: center;
+        width: 100%;
+
+        .times {
+            width: 50px;
+            height: 30px;
+            margin-right: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 20px;
+            border: 1px solid $extra-light-blue;
+            cursor: pointer;
+        }
+
+        .active, .times:hover {
+            background-color: $blue;
+            color: $white;
+            border: none;
+        }
+    }
+
+    .sidebar-small {
+        width: 90px;
+        margin-top: 100px;
+        float: right;
+        display: block;
+        border-radius: 5px;
+        position: fixed;
+        top: 100px;
+        right: 0;
+        z-index: 9999;
+    }
+
+    .create-panel {
+        width: 100%;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .items-panel {
+        width: 100%;
+        background-color: white;
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        border-radius: 4px 0 0 0;
+        height: $small-height;
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+
+    .create-button {
+        width: 60px;
+        height: 60px;
+        background: $orange;
+        font-size: 40px;
+        border-radius: 5px;
+        color: white;
+        text-align: center;
+        cursor: pointer;
+    }
+
+    .b-sidebar-body .vscrollbar {
+        padding: 0 5px;
+        height: 100%;
+    }
+
+    .vscrollbar {
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+
+    .sidebar-small .vscrollbar {
+        height: $small-height;
+    }
+}
+
+.image-calendar {
+    width: 22px;
+    position: absolute;
+    top: 7px;
+    right: 5px;
+}

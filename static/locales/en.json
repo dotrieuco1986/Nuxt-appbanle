@@ -1,0 +1,47 @@
+{
+    "links": {
+        "home": "Home",
+        "about": "About",
+        "english": "English",
+        "vietnam": "Vietnamese"
+    },
+    "home": {
+        "title": "Welcome",
+        "introduction": "This is an introduction in English."
+    },
+    "about": {
+        "title": "About",
+        "introduction": "This page is made to give you more informations."
+    },
+    "components": {
+        "sidebarpage": "Result",
+        "ProductItem": {
+            "ordered": "Has been ordered",
+            "times": "times",
+            "size": "Choose size",
+            "color": "choose color",
+            "add": "Add"
+        },
+        "ShoppingCart": {
+            "shoppingCart": "shopping cart",
+            "product": "item",
+            "discount": "discount",
+            "appliedPromotion": "Applied voucher",
+            "btnAdd": "add",
+            "btnRemove": "remove",
+            "totalPrice": "total",
+            "shopPromotion": "shop promotions",
+            "shipping": "shipping",
+            "btnBuy": "buy"
+        },
+        "Promotions": {
+            "promotion": "Promotions",
+            "btnApply": "Apply",
+            "choosedPromotion": "Choosed promotion(s)",
+            "promoItemFormatType1": "Cost",
+            "promoItemFormatType2": "Cost",
+            "promoItemForamtType2MaxValue": "maxium",
+            "promoItemDecrease": "Decrease"
+        }
+    }
+}

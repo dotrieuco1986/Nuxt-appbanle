@@ -1,0 +1,10 @@
+<svg id="Group_1270" data-name="Group 1270" xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 31 31">
+  <circle id="Ellipse_56" data-name="Ellipse 56" cx="15.5" cy="15.5" r="15.5" fill="#71c8ff"/>
+  <g id="human_log_in" data-name="human log in" transform="translate(7.66 5.051)">
+    <g id="face-24px" transform="translate(2.37)">
+      <path id="Path_1551" data-name="Path 1551" d="M0,0H10.568V10.568H0Z" fill="rgba(0,0,0,0)"/>
+      <path id="Path_1552" data-name="Path 1552" d="M5.082,6.293a.55.55,0,1,0,.55.55A.551.551,0,0,0,5.082,6.293Zm2.642,0a.55.55,0,1,0,.55.55A.551.551,0,0,0,7.724,6.293ZM6.4,2a4.4,4.4,0,1,0,4.4,4.4A4.4,4.4,0,0,0,6.4,2Zm0,7.926A3.527,3.527,0,0,1,2.881,6.4,3.57,3.57,0,0,1,2.9,6.024,4.43,4.43,0,0,0,5.2,3.66,4.392,4.392,0,0,0,8.79,5.523a4.3,4.3,0,0,0,.991-.114A3.517,3.517,0,0,1,6.4,9.926Z" transform="translate(-1.119 -1.119)" fill="#fff"/>
+    </g>
+    <path id="Path_1553" data-name="Path 1553" d="M200.771,386.845s-.006-7.557,7.881-7.61,8.08,7.61,8.08,7.61" transform="translate(-200.771 -369.723)" fill="none" stroke="#fff" stroke-width="1.1"/>
+  </g>
+</svg>

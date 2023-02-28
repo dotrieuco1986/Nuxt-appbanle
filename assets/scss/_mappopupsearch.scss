@@ -1,0 +1,42 @@
+#map-popup-search{
+    .fs-inner-container {
+        z-index: 10;
+        height:70vh;
+        #map-home-popup{
+            height: 100%;
+        }
+    }
+    .autocomplete-input {
+        padding: 10px;
+        .autocomplete-clear {
+            position: absolute;
+            top: 24px;
+            right: 17px;
+            cursor: pointer;
+        }
+        .autocomplete-spinner{
+            position: absolute;
+            top: 24px;
+            right: 17px;
+            cursor: pointer;
+        }
+        #autocomplete-map-popup-search{
+            font-size: 16px;
+            border: none;
+            background-color: $light-blue;
+            border-radius: 5px;
+        }
+    }
+    .btn-ok{
+        position: absolute;
+        bottom: 20px;
+        background: #FE7235;
+        border: none;
+        width: 94% !important;
+        margin-left: 3%;
+        z-index: 999;
+    }
+    .map-container{
+        height: 100%;
+    }
+}

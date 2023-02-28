@@ -1,0 +1,77 @@
+table {
+    border:0px;
+    text-align: center;
+    margin-top: 30px;
+    tr:nth-child(1) {
+        background: $light-gray;
+        th {
+            position: relative;
+            font-family: $font-primary;
+            font-weight: 500;
+            &::after {
+                content: '';
+                display: block;
+                width: 1px;
+                background: $extra-light-blue;
+                height: 50%;
+                position: absolute;
+                right: 0;
+                top: 25%;
+            }
+            &:nth-last-child(1)::after {
+                display: none;
+            }
+            &:nth-child(1) {
+                position: relative;
+                &::before {
+                    content: '';
+                    display: block;
+                    width: 2px;
+                    background: $orange;
+                    height: 90%;
+                    position: absolute;
+                    left: 0;
+                    top: 5%;
+                }
+            }
+        }
+        &::nth-of-type(odd) {
+            background: $white;
+        }
+    }
+    td {
+        border-top: 1px solid #ddd;
+        border-bottom: 1px solid #ddd;
+        position: relative;
+        padding: 0 0.75em !important;
+        background: $white;
+        vertical-align: middle !important;
+        &::after {
+            content: '';
+            display: block;
+            width: 1px;
+            background: $extra-light-blue;
+            height: 50%;
+            position: absolute;
+            right: 0;
+            top: 25%;
+        }
+        &:nth-last-child(1)::after {
+            display: none;
+        }
+        &:nth-child(1)::before {
+            content: '';
+            display: block;
+            width: 2px;
+            background: $blue;
+            height: 90%;
+            position: absolute;
+            left: 0;
+            top: 5%;
+        }
+        svg {
+            color: $orange;
+            margin: 0 3px;
+        }
+    }
+}

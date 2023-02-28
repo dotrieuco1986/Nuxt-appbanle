@@ -1,0 +1,423 @@
+@import 'variable';
+
+#create-business {
+    .vscrollbar {
+        overflow-x: hidden;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 20px;
+        height: 100%;
+    }
+
+    .setting-icon {
+        position: relative;
+
+        textarea {
+            resize: none;
+            height: 40px;
+            border-radius: 5px;
+            font-size: 14px;
+            padding-top: 10px;
+            padding-left: 10px;
+            border-color: $extra-light-blue;
+
+            &:focus, &:hover {
+                outline: none !important;
+                border-color: $extra-light-blue;
+                box-shadow: 0 0 10px $extra-light-blue;
+            }
+        }
+
+        .image-calendar {
+            width: 22px;
+            position: absolute;
+            top: 7px;
+            right: 5px;
+        }
+    }
+
+    .custom-select {
+        &:focus, &:hover {
+            border-color: $extra-light-blue;
+            outline: none;
+            box-shadow: 0 0 10px $extra-light-blue;
+        }
+    }
+
+    .color-07070 {
+        color: $dark-gray;
+    }
+
+    .color-red {
+        color: red;
+    }
+
+    .text-grade-point {
+        text-align: right;
+    }
+
+    .width-100 {
+        width: 100%;
+    }
+
+    .border-top-bottom-left {
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+
+    .border-top-bottom-right {
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+
+    label {
+        width: 100%;
+    }
+
+    input {
+        font-size: 14px;
+
+        &::placeholder {
+            font-size: 14px;
+        }
+
+        &:focus, &:hover {
+            outline: none !important;
+            border-color: $extra-light-blue;
+            box-shadow: 0 0 10px $extra-light-blue;
+        }
+    }
+
+    input[type='text'], input[type='number']  {
+        height: 40px;
+        border-radius: 5px;
+        border: 1px solid $extra-light-blue;
+
+        &::-webkit-outer-spin-button,
+        &::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+    }
+
+    .margin-bottom-18 {
+        margin-bottom: 18px;
+
+        .note-color-green {
+            color: $green;
+
+            img {
+                width: 15px;
+                cursor: pointer;
+            }
+        }
+
+        #auto-complete {
+            position: relative;
+
+            div:first-child {
+                width: 100%;
+            }
+
+            img {
+                width: 24px;
+                position: absolute;
+                top: 8px;
+                right: 4px;
+                cursor: pointer;
+            }
+        }
+
+        .custom-checkbox {
+            .custom-control-label {
+                color: $extra-dark-gray;
+                padding-top: 0.25rem;
+            }
+        }
+
+        .vue-treeselect {
+            .vue-treeselect__input-container {
+                input {
+                    border: unset;
+                }
+            }
+
+            .vue-treeselect__single-value {
+                top: 4px;
+                font-weight: normal;
+                color: $extra-dark-gray;
+            }
+
+            .vue-treeselect__menu {
+                font-weight: normal;
+                color: $extra-dark-gray;
+                font-size: 14px;
+            }
+
+            .vue-treeselect__placeholder {
+                top: 4px;
+                font-weight: 100;
+                color: $dark-gray;
+                font-size: 14px;
+            }
+
+            &:focus, &:hover {
+                box-shadow: 0 0 10px $extra-light-blue;
+            }
+
+            div:first-child {
+                border-color: $extra-light-blue;
+
+                input {
+                    box-shadow: unset;
+                }
+            }
+        }
+    }
+
+    .infomation {
+        p {
+            margin-bottom: 10px;
+        }
+    }
+
+    .btn-primary {
+        background-color: $orange;
+        border: 1px solid $orange;
+    }
+
+    .button-previous {
+        background-color: $blue;
+        border: 1px solid $blue;
+        width: 40px;
+        height: 40px;
+    }
+
+    .button-next {
+        width: 92px;
+        height: 40px;
+    }
+
+    .text-align-right {
+        text-align: right;
+    }
+
+    .height-40 {
+        height: 40px;
+    }
+}
+
+
+#modal-open-hours {
+    .custom-control-label {
+        font-size: 14px;
+        padding-top: 5px;
+        cursor: pointer;
+
+        span {
+            color: $extra-dark-gray;
+        }
+    }
+
+    .custom-control-input:checked ~ .custom-control-label::before, .custom-control-input:hover {
+        border-color: $green;
+        background-color: $green;
+    }
+
+    .border-bottom-1 {
+        border-bottom: solid 1px $extra-light-blue;
+        margin: 0 16px;
+    }
+
+    .btn-secondary {
+        display: none;
+    }
+
+    .btn-primary {
+        background-color: $orange;
+        border: 1px solid $orange;
+    }
+
+    footer {
+        display: block;
+        text-align: center;
+        background-color: $light-gray;
+    }
+
+    .modal-body:first-child {
+        background-color: $white;
+        border-radius: 5px;
+    }
+
+    .modal-body {
+        padding: 0;
+
+        .padding-lr-16 {
+            padding-left: 16px;
+            padding-right: 16px;
+        }
+
+        .group-day-time {
+            padding: 16px;
+            background-color: $white;
+            box-shadow: 0 3px #0000001a;
+            -webkit-border-bottom-right-radius: 5px;
+            -webkit-border-bottom-left-radius: 5px;
+
+            .group-day {
+                display: flex;
+
+                button {
+                    margin-top: 10px;
+                    margin-right: 15px;
+                    padding-top: 2px;
+                }
+            }
+        }
+
+        .modal-title {
+            font-weight: 600;
+        }
+
+        .modal-header {
+            border-bottom: unset;
+
+            .close {
+                padding: unset;
+                margin: -4rem -2rem -1rem auto;
+            }
+        }
+
+        .btn-choose-day {
+            text-align: center;
+            vertical-align: middle;
+            height: 30px;
+            width: 87px;
+            border-radius: 50px;
+            color: $white;
+            padding: 0 0 2px 0;
+            font-size: 14px;
+            line-height: 1.5;
+            transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+        }
+
+        .btn-day-choosing {
+            background-color: $orange;
+            border: 1px solid $orange;
+
+            &:focus {
+                outline: none;
+                box-shadow: unset;
+            }
+        }
+
+        .btn-day-open {
+            background-color: $blue;
+            border: 1px solid $blue;
+
+            &:focus {
+                outline: none;
+                box-shadow: unset;
+            }
+        }
+
+        .btn-day-close {
+            background-color: $gray;
+            border: 1px solid $gray;
+
+            &:focus {
+                outline: none;
+                box-shadow: unset;
+            }
+        }
+
+        .orange {
+            color: $orange;
+        }
+
+        .cursor-pointer {
+            cursor: pointer;
+        }
+    }
+
+    .modal-dialog {
+        max-width: 60%;
+    }
+
+    .background-color-light-blue {
+        background-color: $light-blue;
+    }
+}
+
+@media (max-width: $tablet) {
+    #modal-open-hours {
+        .modal-dialog {
+            max-width: 100%;
+        }
+
+        .modal-body {
+            .btn-choose-day {
+                width: 40px;
+            }
+        }
+    }
+}
+
+#modal-create-business-success {
+    text-align: center;
+
+    .modal-body {
+        font-size: 14px;
+        padding-right: 0;
+        padding-left: 0;
+
+        p {
+            &:first-child {
+                font-size: 16px;
+                font-weight: 700;
+            }
+        }
+
+        label {
+            color: $extra-dark-gray;
+
+            &:first-child {
+                font-weight: 700;
+            }
+
+            .text-button {
+                cursor: pointer;
+                color: $orange;
+                font-size: 14px;
+                font-weight: normal;
+            }
+        }
+    }
+
+    footer {
+        display: block;
+        text-align: center;
+        padding-bottom: 0;
+
+        button {
+            width: 100px;
+        }
+
+        .btn-primary {
+            background-color: $orange;
+            border: 1px solid $orange;
+        }
+    }
+}
+
+.font-size-12 {
+    font-size: 12px;
+}
+
+.font-size-14 {
+    font-size: 14px;
+}
+
+.font-size-16 {
+    font-size: 16px !important;
+}

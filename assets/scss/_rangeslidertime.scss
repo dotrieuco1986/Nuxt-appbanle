@@ -1,0 +1,161 @@
+@import 'variable';
+
+#range-slider-time {
+    padding: 0 16px;
+    background-color: $light-blue;
+    #error-time {
+        font-size: 14px;
+        color: $red;
+    }
+    .range-slider-setting {
+        margin: 0;
+
+        img {
+            margin-left: 50%;
+            width: 24px;
+        }
+
+        /* dot style */
+        .vue-slider-dot-handle {
+            cursor: pointer;
+            width: 25px;
+            height: 25px;
+            border-radius: 50%;
+            background-color: $orange;
+            box-sizing: border-box;
+            border: 3px solid $white;
+        }
+
+        .vue-slider-dot-handle-focus {
+            box-shadow: unset;
+        }
+
+        .vue-slider-rail {
+            height: 10px;
+            background-color: $white
+        }
+
+        .vue-slider-process {
+            background-color: $blue;
+            border-radius: 50px;
+        }
+
+        .vue-slider-dot {
+            top: unset !important;
+        }
+
+        .vue-slider-dot-tooltip-inner {
+            border-color: $blue;
+            background-color: $blue;
+        }
+    }
+    input[type=range] {
+        margin-top: 5px;
+        -webkit-appearance: none;
+        display: block;
+        width: 100%;
+        background: $white;
+        border: 1px solid $white;
+        height: 10px;
+        border-radius: 5px;
+        background-image: -webkit-gradient(linear, 20% 0%, 20% 100%, color-stop(0%, $blue), color-stop(100%, $blue));
+        background-image: -webkit-linear-gradient(left, $blue 0%,$blue 100%);
+        background-image: -moz-linear-gradient(left, $blue 0%, $blue 100%);
+        background-image: -o-linear-gradient(to right, $blue 0%,$blue 100%);
+        background-image: linear-gradient(to right, $blue 0%,$blue 100%);
+        background-repeat: no-repeat;
+
+        &:focus {
+            outline: none;
+
+            &::-webkit-slider-runnable-track {
+                background: transparent;
+            }
+
+            &::-ms-fill-lower {
+                background: transparent;
+            }
+
+            &::-ms-fill-upper {
+                background: transparent;
+            }
+        }
+
+        &::-webkit-slider-runnable-track {
+            width: 100%;
+            height: 4px;
+            cursor: pointer;
+            box-shadow: none;
+            background: transparent;
+            border-radius: 5px;
+            border: none;
+        }
+
+        &::-webkit-slider-thumb {
+            box-shadow: none;
+            border: 3px solid $white;
+            height: 30px;
+            width: 30px;
+            border-radius: 50px;
+            background: $orange;
+            cursor: pointer;
+            -webkit-appearance: none;
+            margin-top: -13px;
+        }
+
+        &::-moz-range-track {
+            width: 100%;
+            height: 4px;
+            cursor: pointer;
+            box-shadow: none;
+            background: transparent;
+            border-radius: 0px;
+            border: none;
+        }
+
+        &::-moz-range-thumb {
+            box-shadow: none;
+            border: 4px solid #ADD8E6;
+            height: 16px;
+            width: 16px;
+            border-radius: 2px;
+            background: #ffffff;
+            cursor: pointer;
+        }
+
+        &::-ms-track {
+            width: 100%;
+            height: 4px;
+            cursor: pointer;
+            background: transparent;
+            border-color: transparent;
+            color: transparent;
+        }
+
+        &::-ms-fill-lower {
+            background: transparent;
+            border: none;
+            border-radius: 5px;
+            box-shadow: none;
+        }
+
+        &::-ms-thumb {
+            box-shadow: none;
+            border: 4px solid #ADD8E6;
+            height: 16px;
+            width: 16px;
+            border-radius: 2px;
+            background: #ffffff;
+            cursor: pointer;
+            height: 4px;
+        }
+    }
+
+    #range-one {
+        background-image: -webkit-gradient(linear, 20% 0%, 20% 100%, color-stop(0%, $white), color-stop(100%, $white));
+        background-image: -webkit-linear-gradient(left, $white 0%,$white 100%);
+        background-image: -moz-linear-gradient(left, $white 0%, $white 100%);
+        background-image: -o-linear-gradient(to right, $white 0%,$white 100%);
+        background-image: linear-gradient(to right, $white 0%,$white 100%);
+    }
+}

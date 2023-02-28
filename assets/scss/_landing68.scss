@@ -1,0 +1,204 @@
+body.body-landing{
+    width: 100%;
+    height: 100vh;
+    .warraper{
+        width: 100%;
+        height: 100vh;
+        background: url('../assets/image/background/background.png') no-repeat center center fixed;
+        background-size: cover !important;
+        background-position: top right !important;
+        display: table;
+        .content{
+            display: table-cell;
+            vertical-align: middle;
+            .bg-content{
+                width: 100%;
+                margin: 0 auto;
+                max-width: 1240px;
+                position: relative;
+                padding: 5px 0px;
+                border: none;
+                background: #fff;
+                border-radius: 5px;
+                .search-on-map{
+                    padding-top: 5px;
+                    img{
+                        width: 15px;
+                    }
+                }
+            }
+            .title{
+                color: #fff;
+                font-size: 48px;
+                margin: 0px;
+            }
+            p {
+                position: absolute;
+                left: 0;
+                bottom: 100%;
+            }
+        }
+
+    }
+    #map-popup{
+        .modal-dialog{
+            width: 80%;
+            .modal-body{
+                padding: 0px;
+            }
+        }
+    }
+    .fs-inner-container {
+        z-index: 10;
+        height: 80vh;
+    }
+
+    .map-container {
+        height: 100%;
+        width: 100%;
+    }
+
+    #map {
+        height: 100%;
+    }
+
+}
+
+@media (min-width: $mq-tiny) and (max-width: $tablet) {
+    body.body-landing {
+        width: 100%;
+        height: 100vh;
+
+        .warraper {
+            width: 100%;
+            height: 100vh;
+            background: url('../assets/image/background/background.png') no-repeat center center fixed;
+            background-size: cover !important;
+            background-position: top right !important;
+            display: table;
+            .content {
+                display: table-cell;
+                vertical-align: middle;
+
+                .bg-content {
+                    width: 90%;
+                    margin: 0 auto;
+                    max-width: 1240px;
+                    position: relative;
+                    padding: 5px 0px;
+                    border: none;
+                    background: #fff;
+                    border-radius: 5px;
+                    #search-location{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+        #map-popup{
+            .modal-dialog{
+                width: 90%;
+                margin: auto;
+                .modal-body{
+                    padding: 0px;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 769px) and (max-width:$desktop){
+    body.body-landing {
+        width: 100%;
+        height: 100vh;
+
+        .warraper {
+            width: 100%;
+            height: 100vh;
+            background: url('../assets/image/background/background.png') no-repeat center center fixed;
+            background-size: cover !important;
+            background-position: top right !important;
+            display: table;
+
+            .content {
+                display: table-cell;
+                vertical-align: middle;
+
+                .bg-content {
+                    width: 100%;
+                    margin: 0 auto;
+                    max-width: 768px;
+                    position: relative;
+                    padding: 5px 0px;
+                    border: none;
+                    background: #fff;
+                    border-radius: 5px;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 1025px) and (max-width:$lg-desktop){
+    body.body-landing {
+        width: 100%;
+        height: 100vh;
+
+        .warraper {
+            width: 100%;
+            height: 100vh;
+            background: url('../assets/image/background/background.png') no-repeat center center fixed;
+            background-size: cover !important;
+            background-position: top right !important;
+            display: table;
+
+            .content {
+                display: table-cell;
+                vertical-align: middle;
+
+                .bg-content {
+                    width: 100%;
+                    margin: 0 auto;
+                    max-width: 1024px;
+                    position: relative;
+                    padding: 5px 0px;
+                    border: none;
+                    background: #fff;
+                    border-radius: 5px;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 1441px) and (max-width:$wide-desktop){
+    body.body-landing {
+        width: 100%;
+        height: 100vh;
+
+        .warraper {
+            width: 100%;
+            height: 100vh;
+            background: url('../assets/image/background/background.png') no-repeat center center fixed;
+            background-size: cover !important;
+            background-position: top right !important;
+            display: table;
+
+            .content {
+                display: table-cell;
+                vertical-align: middle;
+
+                .bg-content {
+                    width: 100%;
+                    margin: 0 auto;
+                    max-width: 1440px;
+                    position: relative;
+                    padding: 5px 0px;
+                    border: none;
+                    background: #fff;
+                    border-radius: 5px;
+                }
+            }
+        }
+    }
+}

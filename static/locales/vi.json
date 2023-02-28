@@ -1,0 +1,148 @@
+{
+    "links": {
+        "home": "Trang chủ",
+        "about": "Giới thiệu",
+        "english": "Tiếng Anh",
+        "vietnam": "Tiếng Việt"
+    },
+    "home": {
+        "title": "Xin chào",
+        "introduction": "Xin chào bạn."
+    },
+    "about": {
+        "title": "Giới thiệu",
+        "introduction": "Đây là trang giá thiệu."
+    },
+    "button": {
+        "login": "ĐĂNG NHẬP",
+        "register": "ĐĂNG KÝ"
+    },
+    "Message": {
+        "notLogin": "Bạn chưa đăng nhập."
+    },
+    "components": {
+        "notfound": "Không có kết quả nào được tìm thấy.",
+        "sidebarpage": "Kết quả",
+        "ProductItem": {
+            "ordered": "Đã được đặt",
+            "times": "lần",
+            "size": "Chọn size",
+            "color": "Chọn màu",
+            "add": "Thêm"
+        },
+        "ShoppingCart": {
+            "shoppingCart": "giỏ hàng",
+            "product": "sản phẩm",
+            "discount": "khuyến mãi",
+            "appliedPromotion": "voucher đã được chọn",
+            "btnAdd": "thêm",
+            "btnRemove": "xóa",
+            "totalItems": "tổng cộng",
+            "item": "món",
+            "shopPromotion": "khuyến mãi shop",
+            "shipping": "phí vận chuyển tạm tính",
+            "btnBuy": "mua hàng"
+        },
+        "Promotions": {
+            "promotion": "khuyến mãi",
+            "btnApply": "Áp dụng",
+            "choosedPromotion": "Voucher đã được chọn",
+            "promoItemFormatType1": "Tiêu",
+            "promoItemFormatType2": "Ưu đãi",
+            "promoItemForamtType2MaxValue": "tối đa",
+            "promoItemDecrease": "Giảm",
+            "promoAlertSuccess": "Mã voucher đã được áp dụng thành công",
+            "promoAlertRequireAddMore": "Bạn cần mua thêm sản phẩm để dùng voucher này!",
+            "promoAlertApplySuccess": "Voucher đã được sử dụng!"
+        },
+        "DateRangePicker": {
+            "applyLabel": "Áp dụng",
+            "cancelLabel": "Hủy",
+            "customRangeLabel": "Tùy chọn",
+            "weekLabel": "Tuần",
+            "sunday": "CN",
+            "monday": "T2",
+            "tuesday": "T3",
+            "wednesday": "T4",
+            "thusday": "T5",
+            "friday": "T6",
+            "satuday": "T7",
+            "jan": "Tháng 1",
+            "feb": "Tháng 2",
+            "mar": "Tháng 3",
+            "apr": "Tháng 4",
+            "may": "Tháng 5",
+            "jun": "Tháng 6",
+            "jul": "Tháng 7",
+            "aug": "Tháng 8",
+            "sep": "Tháng 9",
+            "oct": "Tháng 10",
+            "nov": "Tháng 11",
+            "dec": "Tháng 12",
+            "today": "Hôm nay",
+            "yesterday": "Hôm qua",
+            "thismonth": "Tháng này",
+            "thisyear": "Năm nay",
+            "lastmonth": "Tháng trước"
+        }
+    },
+    "survey": {
+        "title": "Khảo sát thị trường",
+        "location": "Điểm đặt CSKD",
+        "radius": "Bán kính",
+        "statistical": "Thống kê",
+        "businessType": "Loại hình kinh doanh",
+        "seepdf": "Xem PDF demo",
+        "see": "Xem",
+        "ifsurvey": "Nếu bạn có nhu cầu khảo sát thị trường chuyên sâu.",
+        "ifcall": "Hãy gọi số ",
+        "pleasePay": "Vui lòng thanh toán để xem chi tiết khảo sát thị trường",
+        "paysuccess": "Thanh toán thành công",
+        "sendmail": "Kết quả khảo sát đã được gửi vào hộp thư mail "
+    },
+    "store": {
+        "label": {
+            "name": "Tên cửa hàng",
+            "reliability": "Mức độ tin cậy",
+            "representation_name": "Tên người đại diện",
+            "representation_id_number": "Số CMND/Passport",
+            "email": "Email",
+            "phone": "Số điện thoại",
+            "address": "Địa chỉ",
+            "activity_type": "Loại hình hoạt động",
+            "select_activity_type": "Chọn loại hình hoạt động",
+            "business_areas": "Lĩnh vực kinh doanh",
+            "select_business_areas": "Chọn lĩnh vực kinh doanh",
+            "business_lines": "Ngành nghề",
+            "select_business_lines": "Chọn ngành nghề",
+            "open_hours": "Giờ hoạt động",
+            "socials": "Mạng xã hội",
+            "website": "Trang web cửa hàng",
+            "shipping": "Vận chuyển",
+            "note_optional": "Thông Tin Bổ Sung",
+            "images_additional": "Hình ảnh bổ sung",
+            "select_signboard": "Chọn bảng hiệu",
+            "upload": "Tải lên",
+            "placeholder": {
+                "representation_name": "Tên người đại diện cửa hàng",
+                "email": "email@goollow68.org",
+                "phone": "090xxxxxxx",
+                "address": "Click để chọn địa chỉ",
+                "shipping": {
+                    "from": "Từ (km)",
+                    "to": "Đến (km)",
+                    "money": "Giá (vnđ)"
+                }
+            }
+        },
+        "validate_text": {
+            "max_size_1m": "Dung lượng tối đa 1MB.",
+            "file_type_accepted": "Định dạng JPG, PNG.",
+            "rate_accepted": "Tỉ lệ ngang dọc 2:1"
+        },
+        "error": {
+            "socials": "Nhập địa chỉ mạng xã hội chưa chính xác",
+            "website": "Nhập trang web cửa hàng chưa chính xác"
+        }
+    }
+}

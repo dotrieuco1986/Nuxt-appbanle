@@ -1,0 +1,27 @@
+$border: #CBD4DA;
+
+#share-business {
+
+  .mvp-textbox{
+    width: 100%;
+  }
+  .btn-share{
+    font-size: 50px;
+    width: 60px;
+  }
+
+  .zalo-share-button {
+    overflow: visible !important;
+  }
+
+  .zalo-share-button iframe {
+    display: none;
+  }
+
+}
+
+iframe {
+  top: 10px !important;
+  left: 10px !important;
+}
+

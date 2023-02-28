@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 31 31">
+  <g id="Group_1264" data-name="Group 1264" transform="translate(-240 -429)">
+    <circle id="Ellipse_56" data-name="Ellipse 56" cx="15.5" cy="15.5" r="15.5" transform="translate(240 429)" fill="#71c8ff"/>
+    <g id="construction-24px_1_" data-name="construction-24px (1)" transform="translate(246.791 436.145)">
+      <g id="Group_1092" data-name="Group 1092" transform="translate(0.209 0.209)">
+        <rect id="Rectangle_1631" data-name="Rectangle 1631" width="17" height="17" transform="translate(0 -0.353)" fill="none"/>
+      </g>
+      <g id="Group_1094" data-name="Group 1094" transform="translate(1.46 1.818)">
+        <g id="Group_1093" data-name="Group 1093">
+          <rect id="Rectangle_1632" data-name="Rectangle 1632" width="2.097" height="5.929" transform="translate(8.168 8.781) rotate(-45)" fill="#fff"/>
+          <path id="Path_1855" data-name="Path 1855" d="M12.867,7.777A2.45,2.45,0,0,0,15.314,5.33a2.416,2.416,0,0,0-.287-1.119L13.14,6.1,12.1,5.058,13.986,3.17a2.416,2.416,0,0,0-1.119-.287A2.45,2.45,0,0,0,10.42,5.33a2.384,2.384,0,0,0,.147.811L9.273,7.435,8.029,6.19l.5-.5-.986-.986L9.022,3.226a2.1,2.1,0,0,0-2.964,0L3.582,5.7l.986.986H2.6l-.5.5L4.575,9.658l.5-.5V7.183l.986.986.5-.5L7.8,8.917,2.617,14.1,4.1,15.58l7.956-7.949A2.384,2.384,0,0,0,12.867,7.777Z" transform="translate(-2.1 -2.613)" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

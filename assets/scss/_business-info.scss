@@ -1,0 +1,46 @@
+@import 'variable';
+
+$info-color: #EFF3F6;
+#sidebar-business{
+    overflow-x: hidden;
+}
+
+#business-container {
+
+    padding: 0 15px;
+    font-size: 14px;
+
+    .text-star {
+        vertical-align: sub;
+    }
+
+    .symbol-container {
+        padding: 5px;
+        width: 20%;
+    }
+
+    .edit-info {
+        padding-left: 15px;
+        color: $gray;
+    }
+
+    .online {
+        :after {
+            border-radius: 100%;
+            background-color: $green;
+        }
+    }
+
+    .business-info-component {
+        background-color: $info-color;
+        padding: 10px;
+        margin-bottom: 3px;
+        width: 100%;
+
+        .icon-info-business {
+            font-size: 16px;
+            font-style: normal;
+            color: $gray
+        }
+    }
+}

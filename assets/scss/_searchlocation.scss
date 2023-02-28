@@ -1,0 +1,54 @@
+#search-location{
+    .group-autocomplete{
+        .autocomplete-input {
+            padding: 10px;
+            .autocomplete-clear {
+                position: absolute;
+                top: 15px;
+                right: 47px;
+                cursor: pointer;
+            }
+            .autocomplete-spinner{
+                position: absolute;
+                top: 15px;
+                right: 47px;
+                cursor: pointer;
+            }
+            #autocomplete-search-location{
+                font-size: 16px;
+                border: none;
+                background-color: $light-blue;
+                border-radius: 5px;
+            }
+        }
+        img{
+            width: 30px;
+            position: absolute;
+            right: 10px;
+            top: 10px;
+            cursor: pointer;
+        }
+    }
+    .address{
+        padding-top: 10px;
+        svg {
+            path {
+                fill: $dark-gray;
+            }
+        }
+    }
+    .search-on-map{
+        padding-top: 5px;
+        svg {
+            path {
+                fill: $orange;
+            }
+        }
+        .text-search-on-map{
+            cursor:pointer;
+        }
+    }
+    .btn-current{
+        background-color: #fff;
+    }
+}

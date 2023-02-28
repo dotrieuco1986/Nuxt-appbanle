@@ -1,0 +1,44 @@
+@import "variable";
+$colorHover: #e76a34;
+$backgroundd: white;
+
+.btn-mvp {
+    background: $orange;
+    color: $white;
+
+    &:hover {
+        color: $white;
+        border: 1px solid $colorHover;
+        background: $colorHover;
+    }
+
+    .svg-icon{
+        fill: $white;
+    }
+}
+
+.btn-backend {
+    color: $orange;
+    border: 1px solid $orange;
+    background: $white;
+
+    .svg-icon{
+        fill: $orange;
+    }
+
+    &:hover {
+        color: $white;
+        border: 1px solid $orange;
+        background: $orange;
+
+        .svg-icon{
+            fill: $white;
+        }
+    }
+
+    .icon {
+        float: left;
+        padding: 0 5px;
+    }
+}
+

@@ -1,0 +1,99 @@
+@import "./variable";
+@media (min-width: $mq-tiny) and (max-width: 1023px) {
+    #header-admin-mobile{
+        position: absolute;
+        top: 0;
+        left:0;
+        height: 100%;
+        background:$white;
+        width: 100%;
+        z-index: 9999;
+        ul{
+            padding: 0px;
+            list-style: none;
+            li{
+                padding: 10px 15px 5px 15px;
+                &.item{
+                    .logo{
+                        min-height: 60px;
+                        position: relative;
+                        height: 35px;
+                        a{
+                            float: left;
+                            img{
+                                height: 60px;
+                                width: auto;
+                            }
+                        }
+                        #close-toggle{
+                            position: absolute;
+                            right: 0;
+                            top: 10px;
+                            path{
+                                fill:$orange
+                            }
+                        }
+                    }
+                    .user-avatar {
+                        max-width: 40px;
+                        max-height: 40px;
+                        border-radius: 50%;
+                        cursor: pointer;
+                    }
+                    #create-sale-point {
+                        background-color: #Fff;
+                        color: $orange;
+                        border: 2px solid $orange;
+                        height: 50px;
+                        font-size: 14px;
+                        font-weight: bold;
+                        width: 100%;
+                    }
+                }
+                &.item-image{
+                    a{
+                        color: #626262;
+                    }
+                    a:hover{
+                        color: $orange;
+                    }
+                    .collapse{
+                        padding-left: 32px;
+                    }
+                    span:focus{
+                        outline: none;
+                    }
+                    img{
+                        width:25px;
+                    }
+                }
+                &.item-text-bg{
+                    background-color: $light-blue;
+                    .badge{
+                        background-color: $orange;
+                        float: right;
+                        height: 23px;
+                        width: 23px;
+                        border-radius: 50%;
+                        padding: 0 4px;
+                        margin: 0 3px;
+                    }
+                    .collapse{
+                        background-color: $white;
+                    }
+                    hr{
+                        border-top: 1px solid $white;
+                    }
+                }
+                hr{
+                    margin: 8px 0px 0px 0px;
+                }
+            }
+        }
+    }
+}
+@media (min-width: $desktop){
+    #header-admin-mobile{
+        display: none;
+    }
+}
